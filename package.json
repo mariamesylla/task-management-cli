@@ -1,0 +1,25 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "Task management cli",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "task management"
+  },
+  "author": "Magnan Sylla",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.15",
+    "mongoose": "^8.2.1",
+    "nanoid": "^5.0.6",
+    "ora": "^8.0.1"
+  }
+}
