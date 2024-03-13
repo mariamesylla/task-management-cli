@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
 import { connectDB, disconnectDB } from '../db.js'
-import Todos from "../schema/TodoSchema.js";
+import Todos from "../schema/todoSchema.js";
 import ora from "ora";
 import chalk from "chalk";
 

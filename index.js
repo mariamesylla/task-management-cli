@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-import addTask from './commands/addTask.js'
-import deleteTask from './commands/deleteTask.js'
-import readTask from './commands/readTask.js'
-import updateTask from './commands/updateTask.js'
+import addTask from './commands/add.js'
+import deleteTask from './commands/delete.js'
+import readTask from './commands/read.js'
+import updateTask from './commands/update.js'
 
 import { Command } from 'commander'
 const program = new Command()
