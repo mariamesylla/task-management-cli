@@ -1,6 +1,6 @@
 // Importing packages and functions
 import inquirer from "inquirer";
-import Todos from '../schema/TodoSchema.js'
+import Todos from '../schema/todoSchema.js'
 import {connectDB, disconnectDB} from '../db.js'
 import ora from "ora";
 import chalk from "chalk";

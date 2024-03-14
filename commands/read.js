@@ -1,6 +1,6 @@
 // Importing packages and functions
 import {connectDB, disconnectDB} from '../db.js'
-import Todos from '../schema/TodoSchema.js'
+import Todos from '../schema/todoSchema.js'
 import chalk from 'chalk'
 import ora from 'ora'
 

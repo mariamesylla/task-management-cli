@@ -32,5 +32,10 @@ TodoSchema.pre('save', function(next){
     next()
 })
 
-const Todos = mongoose.model('Todos', TodoSchema)
+let Todos 
+try {
+    mongoose.model('Todos')
+} catch (error) {
+    Todos = mongoose.model('Todos', TodoSchema)
+}
 export default Todos

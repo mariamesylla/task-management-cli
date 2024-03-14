@@ -1,8 +1,8 @@
 // Importing packages and functions
 import {connectDB, disconnectDB} from '../db.js'
-import { getTaskCode } from './deleteTask.js'
+import { getTaskCode } from './delete.js'
 import inquirer from 'inquirer'
-import Todos from '../schema/TodoSchema.js'
+import Todos from '../schema/todoSchema.js'
 import ora from 'ora'
 import chalk from 'chalk'
 

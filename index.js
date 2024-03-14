@@ -4,7 +4,6 @@ import addTask from './commands/add.js'
 import deleteTask from './commands/delete.js'
 import readTask from './commands/read.js'
 import updateTask from './commands/update.js'
-
 import { Command } from 'commander'
 const program = new Command()
 
