@@ -1,11 +1,9 @@
 import dotenv from 'dotenv'
-import 'dotenv/config'
 import mongoose from 'mongoose'
 import ora from 'ora'
 import chalk from 'chalk'
 
 dotenv.config()
-
 
 export async function connectDB(){
     try {
@@ -24,7 +22,8 @@ export async function disconnectDB(){
         await mongoose.disconnect()
         console.log(chalk.greenBright('Disconnected from the database.'))
     } catch(err) {
-        console.log(chalk.redBright('Error: '), err);
+        console.log(chalk.redBright('Error: '), error);
         process.exit(1) 
     }
 }
+
